@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Website Portfolio-Melinia Suci Ramadhani</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/hero-3.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="assets/fontawesome-free/css/all.css" />
+    <link rel="stylesheet" href="assets/fontawesome-free/css/all.min.css" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+  <style>
+    .my-3 .p-3 .bg-body .rounded .shadow-sm{
+      background-color: black;
+    }
+    /* Container needed to position the overlay. Adjust the width as needed */
+    .fotoku {
+      position: relative;
+      width: 100%;
+      max-width: 300px;
+    }
+
+    /* Make the image to responsive */
+    .img-fluid {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    /* The overlay effect - lays on top of the container and over the image */
+    .overlay {
+      position: absolute;
+      bottom: 0;
+      background: rgb(0, 0, 0);
+      background: rgba(0, 0, 0, 0.5); /* Black see-through */
+      color: #f1f1f1;
+      width: 100%;
+      transition: 0.5s ease;
+      opacity: 0;
+      color: white;
+      font-size: 20px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* When you mouse over the container, fade in the overlay title */
+    .fotoku:hover .overlay {
+      opacity: 1;
+    }
+    .header-social-links {
+      padding-right: 15px;
+    }
+
+    .header-social-links a {
+      color: #6f6f6f;
+      padding-left: 6px;
+      display: inline-block;
+      line-height: 0px;
+      transition: 0.3s;
+      font-size: 16px;
+    }
+
+    .header-social-links a:hover {
+      color: #0a58ca;
+    }
+    .portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
+  color: #fff;
+  background: #0a58ca;
+}
+
+.card-one {
+  position: relative;
+  max-width: 800px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+.card-one  .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
+  background: #0a58ca;
+  color: #fff;
+}
+
+  </style>
+  <body id="page-top">
+    <!-- Navigation-->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Website Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ms-auto text-light">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#resume">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </div>
+      </div>
+    </nav>
+    <!-- Header-->
+    <!-- Hero 3 - Bootstrap Brain Component -->
+    <section class="py-3 py-lg-5 py-xl-8 bg-dark">
+      <div class="container overflow-hidden">
+        <div
+          class="row gy-5 gy-lg-0 align-items-lg-center justify-content-lg-between text-white"
+        >
+          <div class="col-12 col-lg-6 order-1 order-lg-0">
+            <h1 class="display-3 fw-bold mb-3">Hi, I'm Meli</h1>
+            <p class="fs-5 mb-5">Engineering Graduate - Informatics Engineering</p>
+            <div class="d-grid gap-2 d-sm-flex">
+              <button type="button" class="btn btn-primary"> <a class="nav-link" href="dokumen/Curricullum Vitae-Melinia Suci Ramadhani.pdf">Download CV ATS</a></button>
+              <button
+                type="button"
+                class="mr-2 btn btn-outline-secondary size-large text-light"
+              >
+                 <a class="nav-link" href="#contact">Contact Me</a>
+              </button>
+            </div>
+          </div>
+          <div class="col-12 col-lg-5 text-center">
+            <div class="position-relative">
+              <div
+                class="bsb-circle bg-primary position-absolute top-50 start-50 translate-middle"
+                style="--bsb-cs: 460px"
+              ></div>
+              <img
+                class="img-fluid position-relative z-2"
+                loading="lazy"
+                src="assets/img/melinia.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About section-->
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about" style="margin-top: 20px">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>About</h2>
+          <p>
+            Hello.. My name is Meli, I am graduated from the Informatics
+            Engineering Department taking the Software Engineering study program
+            at Ibnu Khaldun University, Bogor. I have experience building a
+            website project using the PHP CodeIgniter programming language,
+            working on college internship projects and college final projects.
+            With the soft skills I have, I am able to adapt, communicate, work
+            individually and in teams and apply new technology.
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="fotoku" style="margin-left: 20px;">
+              <img src="assets/img/Studio Red Alt 2 - 038.png" class="img-fluid" alt="Foto" />
+              <div class="overlay">My Name is Meli</div>
+            </div>
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <h3>Personal Info</h3>
+            <p class="fst-italic">
+              I want to introduce myself in personal information, the saying
+              goes "if you don't know, you won't love", so let me introduce
+              myself first:
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li>
+                    <i class="bi bi-rounded-right"></i>
+                    <strong>Name:</strong> Melinia Suci Ramadhani
+                  </li>
+                  <li>
+                    <i class="bi bi-rounded-right"></i> <strong>Age:</strong> 24
+                    years
+                  </li>
+                  <li>
+                    <i class="bi bi-rounded-right"></i>
+                    <strong>Degree:</strong> Bachelor of Engineering
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li>
+                    <i class="bi bi-rounded-right"></i>
+                    <strong>Mobile:</strong> (+62)87824317618
+                  </li>
+                  <li>
+                    <i class="bi bi-rounded-right"></i>
+                    <strong>Email:</strong> meliniasr14@gmail.com
+                  </li>
+                  <li>
+                    <i class="bi bi-rounded-right"></i>
+                    <strong>Location:</strong> Bogor, Indonesia.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="about">
+              <p>Previously I chose to study at the engineering faculty and majored in information engineering. I previously studied at a vocational high school majoring in software engineering. So I decided to continue or continue my career by taking a software engineering study program during the 5th semester of college. I wanted to know more about getting to know and learn about other programming languages, previously at the beginning of vocational high school learning the Native PHP programming language and finally I Entering college, many are exposed to learning the programming languages C++, Python, PHP Framework (CodeIgniter), and Node.js, not only programming languages that are studied but also learning about databases, analysis and design such as MySQL, PhpMyAdmin, StarUML, Microsoft Visio, Figma and Adobe Photoshop.</p>
+            </div>
+          </div>
+        </div>
+      </div>f
+    </section>
+    <!-- End About Section -->
+
+        <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="resume-title">Summary</h3>
+            <div class="resume-item pb-0">
+              <h4>Melinia Suci Ramadhani</h4>
+              <p><em>I am graduated from the Informatics Engineering Department taking the Software Engineering study program at Ibnu Khaldun University, Bogor. I have experience building a website project using the PHP Framework (CodeIgniter) programming language, working on college internship projects and college final projects. With the soft skills I have, I am able to adapt, communicate, work individually and in teams and apply new technology.</em></p>
+              <p>
+              <ul>
+                <li>Bogor,Indonesia</li>
+                <li>(+62)87824317618</li>
+                <li>meliniasr14@gmail.com</li>
+              </ul>
+              </p>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Ibn Khaldun University, Bogor.</h4>
+              <p><em>Major: Informatics Engineering | Area of Interest: Software Engineering</em></p>
+              <h5>September 2018 - November 2023</h5>
+              <p>
+                <em>Achivements:</em>
+                <ul>
+                  <li>IPK: 3.56/4.00</li>
+                  <li>Join an organization while studying.</li>
+                  <li>Attend seminars, workshops and conferences held on campus.</li>
+                  <li>Practical assistant in the course "Basics of Computer Programming".</li>
+                  <li>Take an internship program as a course.</li>
+                  <li>Participated in the Certified Independent Study and Internship Program (MSIB) activities, namely Bangkit Academy 2022.</li>
+                  <li><a href="https://drive.google.com/file/d/1hdoBVIzKNdWEd9Gl7GFka6UmmGp0o-IK/view?usp=sharing" target="_blank">KKN Certificate Link</a></li>
+                  <li><a href="https://journal.ikopin.ac.id/index.php/covalue/article/view/4278/3399" target="_blank">Final Thesis Assignment Link</a></li>
+                </ul>
+              </p>
+            </div>
+
+            <h3 class="resume-title">Certification</h3>
+            <div class="resume-item">
+              <h4>Bangkit Academy 2022 Cloud Computing Learning Path</h4>
+              <p><em>Bangkit Academy by Google, GoTo, Traveloka <br>
+Implemented by PT. Presentologics (Dicoding Indonesia)</em></p>
+              <h5>February 2022 - July 2022</h5>
+              <p>
+                <ul>
+                  <li>
+Taking classes in asynchronous form (online via learning modules at Dicoding Academy, Coursera, and Google Cloud Skills Boost).</li>
+                  <li>Take the global Associate Cloud Engineer certification exam from Google which can be taken after completing all the material.</li>
+                  <li>Participate in the capstone project/challenge debriefing (carried out before the capstone implementation, at the end of the learning period).</li>
+                  <li><a href="https://drive.google.com/file/d/1rT0KEMrciJbfjJXAQ7VbLlGMPOWCQsiV/view?usp=sharing" target="_blank">Certificate Link</a></li>
+                </ul>
+              </p>
+            </div>
+
+             <h3 class="resume-title">Skill</h3>
+            <div class="resume-item">
+              <h4>Hardskill</h4>
+              <p>
+                <ul>
+                  <li>HTML
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>Bootstrap</li>
+                  <li>PHP Framework: CodeIgniter 3/4</li>
+                  <li>MySQL</li>
+                  <li>PhpMyAdmin</li>
+                  <li>Git and Github</li>
+                </ul>
+              </p>
+            </div>
+             <div class="resume-item">
+              <h4>Softskill</h4>
+              <p>
+                <ul>
+                  <li>Adaption</li>
+                  <li>Communication</li>
+                  <li>Problem Solving</li>
+                  <li>Time Management</li>
+                  <li>Working individually and in teams</li>
+                  <li>Desire to continue learning new technology</li>
+                  <li>Indonesian (Native)</li>
+                  <li>English (TOEFL Score: 463 / B1) <a href="https://drive.google.com/file/d/1aoT0LyblmVTbgYrw7vCrV4VwlT1UIQMT/view?usp=sharing">Link Certificate</a></li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="resume-title">Work Experience</h3>
+            <div class="resume-item">
+              <h4>Kelurahan Pakansari</h4>
+              <p><em>College Internship</em></p>
+              <h5>May 2021 - July 2021</h5>
+              <p>
+              <ul>
+                <li>Serving the community regarding population administration.
+                <li>Collected and process population administration data using Microsoft Word and Microsoft Excel.</li>
+                <li>Recorded Blank Data and Register Data around 100+ data such as: Government Register Data, PKM Register Data, Letter Register Data, and X - Bank Register Data.</li>
+                <li>Completed the final internship assignment, namely Creating a Website-Based Archives System for Pakansari Village, 100% offline.</li>
+                <li><a href="https://github.com/meliniasr/kelurahanpakansari">Portfolio Link</a></li>
+                <li><a href="https://drive.google.com/file/d/1VwS6Ig-uUL37EMsIteAbdFpGHv0V2R_u/view?usp=sharing" target="_blank">Practical Work Report Link</a></li>
+              </ul>
+              </p>
+            </div>
+
+          <h3 class="resume-title">Organizational Experience</h3>
+            <div class="resume-item">
+              <h4>Asisten Kajian Islam (ASKI)</h4>
+              <p><em>Member of Broadcast Division</em></p>
+              <h5>October 2018 - December 2023</h5>
+              <p>
+                <ul>
+                  <li>Attended the inauguration of new members at the "DAURAH ASKI AKBAR" event on 13-14 October 2018, appointed as Member of the Syiar Division.</li>
+                  <li>During your time as an ASKI member, you participated in every event and served on committees in the Publication & Documentation Division, such as creating designs for brochures, posters, certificates, banners, x-banners, stickers, pins and ID cards.</li>
+              </ul>
+              </p>
+            </div>
+            <div class="resume-item">
+              <h4>Himpunan Teknik Informatika (HIMATEKINFO)</h4>
+              <p><em>Member and Secretary of the Spiritual and Intellectual Division</em></p>
+              <h5>March 2019 - November 2021</h5>
+              <p>
+              <ul>
+                <li>Attended the inauguration of new members at the "TADABUR ALAM XVI HIMATEKINFO" event on 23-24 March 2019.</li>
+                <li>Attended the committee at the "GEBYAR IT" event, became a committee member in the Events Division on 12 October 2019.</li>
+                <li>Attended the division's inauguration at the "XIV BIG MUSYAWARAH" event on December 12 2020, appointed as Secretary of the Intellectual & Spiritual Division (INROH). Starting to be active in December 2020 - November 2021.</li>
+                <li>The Secretary is responsible for setting the agenda together with the head of the INROH Division for the implementation of "Ngaji Yasin" every Friday night online in the 2020-2021 term of office.</li>
+                <li>The secretary is responsible for recording and storing data for the INROH Division.</li>
+                <li>Attended the volunteer activity "NATIONAL STUDENT VACCINATION MOVEMENT" on September 22 2021 at STKIP Muhammadiyah Bogor, tasked with entering data on Covid-19 vaccination recipients.</li>
+              </ul>
+              </p>
+            </div>
+
+            <h3 class="resume-title">Volunteer Experience</h3>
+             <div class="resume-item">
+              <h4>Bawaslu RI</h4>
+              <p><em>Pengawas Tempat Pemungutan Suara (PTPS) 2024</em></p>
+              <h5>January 2024 - February 2024</h5>
+              <p>
+                <ul>
+                  <li>Supervise voting preparations, voting implementation, vote counting preparations, vote counting implementation, and movement of vote counting results from TPS to PPS</li>
+                  <li>Supervise and ensure the condition of voting equipment and other equipment is safe and complete.</li>
+                  <li>Record, document and input data for every event during the quiet period, voting and vote counting in the Siwaslu application, manual Siwaslu, Google Form and Google Drive.</li>
+              </ul>
+              </p>
+            </div>
+            <div class="resume-item">
+              <h4>Himpunan Teknik Informatika (HIMATEKINFO)</h4>
+              <p><em>Data Entry Operation</em></p>
+              <h5>September 2021</h5>
+              <p>
+              <ul>
+                <li>Attended the volunteer activity "NATIONAL STUDENT VACCINATION MOVEMENT" on September 22 2021 at STKIP Muhammadiyah Bogor, tasked with entering data on Covid-19 vaccination recipients.</li>
+              </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+        </div>
+
+          <div class="album py-5 bg-body-tertiary">
+                <div class="container">
+                  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                      <div class="card shadow-sm">
+                        <div class="card-one">
+                        <img
+                          src="assets/img/portfolio/ARSIP-KELURAHAN-PAKANSARI.png"
+                          class="bd-placeholder-img card-img-top"
+                          width="100%"
+                          height="100%"
+                        />
+                          <div class="content">
+                             <p class="card-text"> <b>Sistem Kearsipan Kelurahan
+Pakansari Berbasis Website</b></p>
+                          </div>
+                        </div>
+                        <div class="card-body">
+                          <div
+                            class="d-flex justify-content-between align-items-center"
+                          >
+                            <div class="btn-group">
+                              <button
+                                type="button"
+                                class="btn btn-outline-primary btn-md"
+                                data-bs-target="#kp"
+                                data-bs-toggle="modal"
+                              >
+                                <a><i class="fas fa-eye"> View</i></a>
+                              </button>
+
+                               <button
+                                type="button"
+                                class="btn btn-outline-primary btn-md"
+                                data-bs-target="#kp-link"
+                                data-bs-toggle="modal"
+                              >
+                                <a><i class="fas fa-link" aria-hidden="true"> Link</i></a>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card shadow-sm">
+                                                <div class="card-one">
+                        <img
+                          src="assets/img/portfolio/beranda-kpu.png"
+                          class="bd-placeholder-img card-img-top"
+                          width="100%"
+                          height="100%"
+                        />
+                          <div class="content">
+                             <p><b>Sistem Pengarsipan Data Anjungan Pemilih Pintar Pilpres di KPU Kota Bogor</b></p>
+                          </div>
+                        </div>
+
+                        <div class="card-body">
+                          <p class="card-text">
+                            <b></b>
+                          </p>
+                          <div
+                            class="d-flex justify-content-between align-items-center"
+                          >
+                            <div class="btn-group">
+                              <button
+                                type="button"
+                                class="btn btn-outline-primary btn-md"
+                                data-bs-target="#kpu"
+                                data-bs-toggle="modal"
+                              >
+                                <a><i class="fas fa-eye"> View</i></a>
+                              </button>
+
+                              <button
+                                type="button"
+                                class="btn btn-outline-primary btn-md"
+                                data-bs-target="#kpu-link"
+                                data-bs-toggle="modal"
+                              >
+                                <a><i class="fas fa-link" aria-hidden="true"> Link</i></a>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+          </div>
+
+          <!-- ======= Button Modal Section ======= -->
+             <div
+        class="modal fade"
+        id="kp"
+        aria-hidden="true"
+        aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1"
+      >
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-sm">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5">Sistem Kearsipan Kelurahan
+Pakansari Berbasis Website</h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+             <div class="modal-body">
+                  <div class="scroll-container">
+                    <img src="assets/img/portfolio/login-kp.png" alt="Beranda" width="250">
+                    <img src="assets/img/portfolio/ARSIP-KELURAHAN-PAKANSARI.png" width="250">
+                  </div>
+             </div>
+
+          </div>
+        </div>
+             </div>
+
+              <div
+        class="modal fade"
+        id="kpu"
+        aria-hidden="true"
+        aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1"
+      >
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5"> Sistem Pengarsipan Data Anjungan Pemilih Pintar Pilpres di KPU Kota Bogor</h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div class="album bg-body-tertiary">
+          <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 g-2">
+        <div class="col">
+        <h3 style="text-align: center;">Front-end View</h3>
+                  <div class="scroll-container">
+                    <img src="assets/img/portfolio/beranda-kpu.png" alt="beranda" width="143">
+                    <img src="assets/img/portfolio/Detail Pilpres.png" alt="detail_pilpres" width="143">
+                    <img src="assets/img/portfolio/Dasar Hukum.png" alt="dasar_hukum" width="143">
+                    <img src="assets/img/portfolio/Logo dan Maskot.png" alt="logo&maskot" width="143">
+                    <img src="assets/img/portfolio/Pasangan Calon 1.png" alt="paslon1" width="143">
+                    <img src="assets/img/portfolio/Pasangan Calon 2.png" alt="paslon2" width="143">
+                    <img src="assets/img/portfolio/Rekap Kecamatan.png" alt="rekap_kecamatan" width="143">
+                    <img src="assets/img/portfolio/Rekap Pemungutan Suara.png" alt="rekap_pemungutansuara" width="143">
+                    <img src="assets/img/portfolio/Rekap Provinsi.png" alt="rekap_provinsi" width="143">
+                    <img src="assets/img/portfolio/Piechart Kecamatan.png" alt="piechart_kecamatan" width="143">
+                    <img src="assets/img/portfolio/Piechart Provinsi.png" alt="piechart_provinsi" width="143">
+                    <img src="assets/img/portfolio/Piechart Nasional.png" alt="piechart_nasional" width="143">
+                    <img src="assets/img/portfolio/Rekap TPS.png" alt="rekap_tps" width="143">
+                    <img src="assets/img/portfolio/Surat Suara.png" alt="surat_suara" width="143">
+                    <img src="assets/img/portfolio/Tingkat Partisipasi.png" alt="tingkat_partisipasi" width="143">
+                    <img src="assets/img/portfolio/Pelantikan.png" alt="pelantikan" width="143">
+                    <img src="assets/img/portfolio/Peta Politik 1.png" alt="peta1" width="143">
+                    <img src="assets/img/portfolio/Peta Politik 2.png" alt="peta2" width="143">
+                  </div>
+        </div>
+        <div class="col">
+             <h3 style="text-align: center;">Back-end View</h3>
+                  <div class="scroll-container" height="800px">
+                    <img src="assets/img/portfolio/Login.png" alt="login-dashboard" width="400">
+                    <img src="assets/img/portfolio/Daftar-Akun-Arsip.png" alt="register-dashboard" width="400">
+                    <img src="assets/img/portfolio/Dashboard.png" alt="halaman-dashboard" width="400">
+                  </div>
+        </div>
+
+      </div>
+      </div>
+              </div>
+            </div>
+          </div>
+        </div>
+              </div>
+
+        <div
+          class="modal fade"
+          id="kpu-link"
+          aria-hidden="true"
+          aria-labelledby="exampleModalToggleLabel"
+          tabindex="-1"
+        >
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-md">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5">URL Link</h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+                <div class="modal-body">
+                    <div class="row row row-cols-1 row-cols-sm-2 row-cols-sm-3  g-2">
+                    <div class="col">
+                      <li class="d-flex gap-4">
+                        <img src="assets/img/icon-flaticon/github.png" width="38" height="38">
+                        <div>
+                          <h6 class="mb-0">GitHub</h6>
+                          <a href="https://github.com/meliniasr/kpukotabogor" target="_blank">Link</a>
+                        </div>
+                      </li>
+                    </div>
+
+                    <div class="col">
+                    <li class="d-flex gap-4">
+                      <img src="assets/img/icon-flaticon/document.png" width="38" height="38">
+                      <div>
+                        <h6 class="mb-0">Document</h6>
+                        <a href="https://drive.google.com/file/d/1wvFbLb_-TesbBhiAQPIYPnzRXV4tGQ8P/view?usp=sharing" target="_blank">Link</a>
+                      </div>
+                    </li>
+                    </div>
+
+                    <div class="col">
+                    <li class="d-flex gap-4">
+                      <img src="assets/img/icon-flaticon/clickbait.png" width="38" height="38">
+                      <div>
+                        <h6 class="mb-0">Journal</h6>
+                        <a href="https://journal.ikopin.ac.id/index.php/covalue/article/view/4278/3399" target="_blank">Link</a>
+                      </div>
+                    </li>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+         <div
+          class="modal fade"
+          id="kp-link"
+          aria-hidden="true"
+          aria-labelledby="exampleModalToggleLabel"
+          tabindex="-1"
+        >
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-sm">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5">URL Link</h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+                <div class="modal-body">
+                    <div class="row row row-cols-1 row-cols-sm-2 g-2">
+                    <div class="col">
+                        <img src="assets/img/icon-flaticon/github.png" width="38" height="38">
+                        <div>
+                          <h6 class="mb-0">GitHub</h6>
+                          <a href="https://github.com/meliniasr/kelurahanpakansari" target="_blank">Link</a>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                      <img src="assets/img/icon-flaticon/document.png" width="38" height="38">
+                      <div>
+                        <h6 class="mb-0">Document</h6>
+                        <a href="https://drive.google.com/file/d/1VwS6Ig-uUL37EMsIteAbdFpGHv0V2R_u/view?usp=sharing" target="_blank">Link</a>
+                      </div>
+                    </div>
+
+                </div>
+            </div>
+          </div>
+        </div>
+       </div>
+             <!-- =======End Button Modal Section ======= -->
+
+    </section><!-- End Portfolio Section -->
+
+       <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" style="margin-left: 50px;">
+
+            <div class="col" style="margin-top: 55px;">
+               <div class="info">
+                <div class="address">
+                  <i class="fas fa-map" aria-hidden="true"></i>
+                  <h4>Location:</h4>
+                  <p>Bogor, Indonesia</p>
+                </div>
+              </div>
+            </div>
+
+              <div class="col">
+                <div class="info">
+                  <div class="email">
+                    <i class="fas fa-envelope-open" aria-hidden="true"></i>
+                    <h4>Email:</h4>
+                    <p>meliniasr14@gmail.com</p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col" style="margin-top: 15px;">
+                <div class="info">
+                  <div class="phone">
+                    <i class="fas fa-phone" aria-hidden="true"></i>
+                    <h4>Mobile:</h4>
+                    <p>(+62)87824317618</p>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+
+          <div class="col-lg-12 mt-5 mt-lg-0 py-5">
+
+            <form action="https://formspree.io/f/mbjnlzkv" method="POST">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" name="subject" class="form-control"  id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="text-center mt-2"><button type="submit" class="btn btn-primary">Send Message</button></div>
+            </form>
+
+          </div>
+
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+<!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="header-social-links">
+               <a href="https://meldev14.blogspot.com/" class="blogger"
+                ><i class="fab fa-blogger" style="font-size: 25px"></i
+              ></a>
+              <a href="https://github.com/meliniasr" class="github"
+                ><i class="fab fa-github" style="font-size: 25px"></i
+              ></a>
+              <a href="https://instagram.com/meliniaasr" class="instagram"
+                ><i class="fab fa-instagram" style="font-size: 25px"></i
+              ></a>
+              <a
+                href="https://linkedin.com/in/meliniasuciramadhani"
+                class="linkedin"
+                ><i class="fab fa-linkedin" style="font-size: 25px"></i
+              ></a>
+            </div>
+            <br>
+      <div class="copyright">
+        &copy; 2024 . <strong><span>Melinia Suci Ramadhani</span></strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+
+    <!-- Bootstrap core JS-->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="assets/js/fontawesome.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <!-- Read the Formbutton docs at formspree.io/formbutton/docs. See more examples at codepen.io/formspree -->
+<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+  </body>
+</html>
